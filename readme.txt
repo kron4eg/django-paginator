@@ -37,6 +37,10 @@ _____________
 
 
 
+{% paginator %} call will generate something like
+<div id="paginator"><ul><li class="current">1</li><li><a href="/requested_path/?page=2">2</a></li></ul></div>
+
+
 styles.css
 __________
 #paginator {
