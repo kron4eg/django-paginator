@@ -19,7 +19,7 @@ from paginator import paginate
 @render_to('template.html')
 @paginate()
 def some_view(request):
-     return ('some_list': Model.objects.all())
+     return {'some_list': Model.objects.all()}
 
 
 
