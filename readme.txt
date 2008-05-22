@@ -6,7 +6,7 @@ Example usage:
 
 settings.py
 ___________
-INSTALLED_APPS += ('paginator')   # for templates and templatetags
+INSTALLED_APPS += ('paginator', )   # for templates and templatetags
 
 
 views.py
