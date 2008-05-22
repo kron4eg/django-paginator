@@ -7,6 +7,7 @@ Example usage:
 settings.py
 ___________
 INSTALLED_APPS += ('paginator', )   # for templates and templatetags
+PER_PAGE = 10                       # 10 entries per page
 
 
 views.py
