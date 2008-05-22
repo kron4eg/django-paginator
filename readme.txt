@@ -54,10 +54,10 @@ __________
         #paginator ul li.current {
             border: 1px solid #ccc;
         }
-    #paginator ul li.nav { 
-        border: 0px;
-        margin: 3px;
-    }
+        #paginator ul li.nav { 
+            border: 0px;
+            margin: 3px;
+        }
         #paginator ul li.nav a { 
             font: normal 10px Verdana;
         }
