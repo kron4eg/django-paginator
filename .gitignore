@@ -1,4 +1,2 @@
-syntax: regexp
-\.py[co]$
-\.swp$
-\.svn
+*.pyc
+*.swp
