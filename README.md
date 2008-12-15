@@ -11,9 +11,8 @@ Example usage:
     PER_PAGE = 10                       # 10 entries per page
 
 
-views.py
-________
-
+    views.py
+    ________
     from app.models import Model
     from lib.decorators import render_to
     from paginator import paginate
@@ -25,9 +24,8 @@ ________
 
 
 
-template.html
-_____________
-
+    template.html
+    _____________
     {% load paginatortags %}
     <ul>
     {% for entry in object_list %}    <!-- important! iterable object should be named object_list -->
@@ -44,9 +42,8 @@ _____________
     <div id="paginator"><ul><li class="current">1</li><li><a href="/requested_path/?page=2">2</a></li></ul></div>
 
 
-styles.css
-__________
-
+    styles.css
+    __________
     #paginator {
         margin: 25px 0px; 
         text-align: center;
